@@ -1,1 +1,12 @@
 영상 이미지 관련 공부 자료입니다. 
+
+git을 까먹어서 다시 수정하면서 test
+
+git init- 로컬 저장소 초기화
+git remote add origin "주소" 원격저장소 연결
+git pull 원격저장소와 동기화
+
+
+git add . 모든 파일 stage 로넘김
+git commit -m "무슨짓을 한거니"
+git push origin master 원격저장소로 보냄
