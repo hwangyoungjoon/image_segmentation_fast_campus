@@ -14,3 +14,7 @@ git push origin master 원격저장소로 보냄
 
 
 git reset . add 단계에서 취소
+
+
+git mv  바꿀파일  빠귄파일  파일이름 바꾸기 
+git mv test.txt how_to_git.txt, git add how_to_git, git commit, git push
