@@ -3,9 +3,10 @@ import numpy as np
 from tensorflow.contrib import rnn
 tf.set_random_seed(777)
 
-data=("if you want to build a ship, don't drum up people together to "
-            "collect wood and don't assign them tasks and work, but rather "
-            "teach them to long for the endless immensity of the sea.")
+data=("김예술은 성격파탄자다. "
+            "그래도 먹을것을 잘준다"
+            "돼지같은 김윤정은 뭉치를 날 안준다."
+      "김윤정은 먹을 것을 주면화가 풀린다. 허접한 돼지인거 같다.")
 
 char_set=list(set(data))
 char2ix={c:i for i,c in  enumerate(char_set)}
